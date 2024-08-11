@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Form Wave</title>
+</head>
+<body>
+    <!-- .container>h1{Please Login}form>.form-control>input:text+label{Email} -->
+
+    <div class="container">
+        <h1>Please Login</h1>
+        <form action="">
+            <div class="form-control">
+                <input type="text" name="user" id="user" required>
+                <label for="user">Usuario</label>
+                <!-- <label>
+                        <span style="transition-delay: 0ms">E</span>
+                        <span style="transition-delay: 50ms">m</span>
+                        <span style="transition-delay: 100ms">a</span>
+                        <span style="transition-delay: 150ms">i</span>
+                        <span style="transition-delay: 200ms">l</span>
+                    </label> -->
+            </div>
+            
+            <div class="form-control">
+                <input type="password" name="pass" id="pass" required>
+                <label for="pass">Passaword</label>
+            </div>
+
+            <button class="btn">Login</button>
+
+            <p class="text">Do not have an account?<a href="#"> Register</a></p>
+        </form>
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
